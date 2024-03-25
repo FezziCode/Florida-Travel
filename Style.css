@@ -1,0 +1,115 @@
+body {
+    background-color: #faebd7a5;
+    margin: auto; 
+    position: absolute;
+}
+
+.auto {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    column-gap: 5px;
+}
+
+.Travel {
+    background-image: url(Florida.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.Travel h1 {
+    text-align: center;
+    font-family: "Merienda", cursive;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+.Travel p {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgba(170, 170, 170, 0.67);
+}
+
+.Menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    overflow: hidden;
+    background-color: #525151;
+}
+
+.Menu li {
+    float: right;
+}
+
+.Menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Menu li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.Menu .active {
+    background-color: #0491aa;
+}
+
+.Ever h2,
+.Disney h2,
+.Beach h2 {
+    font-family: "Merienda", cursive;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.Ever p,
+.Disney p,
+.Beach p {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.Ever img,
+.Disney img,
+.Beach img {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    margin-right: 2%;
+    margin-left: 5%;
+}
+
+.B {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #faebd7a5;
+    color: #000000;
+    border-color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
